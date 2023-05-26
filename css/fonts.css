@@ -1,0 +1,53 @@
+/* inter-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v12-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  @font-face {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Muller-Trial-Regular.woff2') format('woff2'),
+         url('../fonts/Muller-Trial-Regular.woff') format('woff');; /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* Muller-Trial Regular */
+  @font-face {
+    font-family: 'Muller-Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Muller-Trial-Regular.woff2') format('woff2'),
+         url('../fonts/Muller-Trial-Regular.woff') format('woff');; /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  @font-face {
+    font-family: 'Muller-Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Muller-Trial-Bold.woff2') format('woff2'),
+         url('../fonts/Muller-Trial-Bold.woff') format('woff');; /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }  
+
+  @font-face {
+    font-family: 'Muller-Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Muller-Trial-Medium.woff2') format('woff2'),
+         url('../fonts/Muller-Trial-Medium.woff') format('woff');; /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }

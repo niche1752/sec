@@ -1,0 +1,82 @@
+html {
+    --container: 320px;
+    --padding-container: 20px;
+    --background-color: #1e2020;
+    --color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Muller', 'Muller-Trial', 'Inter', sans-serif;
+    min-width: 1360px;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+img, svg {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display:block;
+}
+
+button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, p, figure{
+    margin: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+.container {
+    max-width: calc(var(--container) + var(--padding-container) * 2);
+    padding: 0 var(--padding-container);
+    margin: 0 auto;
+}
+
+/* nav */
+ul.menu {
+    display: flex;
+}
+
+.submenu {
+    clip:rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+li:focus-within > .submenu,
+li:hover .submenu{
+    clip:r auto;
+    width: auto;
+    height: auto;
+    margin: 0;    
+}
